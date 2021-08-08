@@ -154,9 +154,9 @@ function marcador() {
     checkpoint.play();
   }
   fill("black");
-  textSize(16);
+  textSize(20);
   textFont("Spectral");
-  text("Score", 550, 30);
+  text("Score", width-150,heigth-280);
   text(puntaje, 560, 50);
 }
 function sky() {
